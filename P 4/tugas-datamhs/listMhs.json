@@ -1,0 +1,22 @@
+{
+  "mahasiswa": [
+    {
+      "id": 1,
+      "NIM": 1941720171,
+      "nama": "Muhammad Fauzan",
+      "alamat": "Jl. Yos Sudarso No.129 Kepanjen",
+      "hp": "089531867319",
+      "angkatan": 2019,
+      "status": "aktif"
+    },
+    {
+      "id": 2,
+      "NIM": 1941720082,
+      "nama": "Mahasiswa B",
+      "alamat": "Malang",
+      "hp": "081234567890",
+      "angkatan": "2019",
+      "status": "cuti"
+    }
+  ]
+}
