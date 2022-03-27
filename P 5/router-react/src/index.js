@@ -3,13 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import URL from './URLParams';
-import Nesting from './Nesting';
-import Auth from './Auth';
+
+import Marketplace from './Tugas/Marketplace';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Auth />
+    <Marketplace />
   </React.StrictMode>,
   document.getElementById('root')
 );
