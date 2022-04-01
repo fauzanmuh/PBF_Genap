@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import { deleteTodo, toggleTodo, setVisibilityFilter } from "../actions/actionCreator";
 import { SHOW_ALL, SHOW_COMPLETED, SHOW_ACTIVE } from "../actions/actionsTypes";
 import { bindActionCreators } from "redux";
+import CreateTodo from './CreateTodo';
 
 class Table extends Component {
     render() {
@@ -33,6 +34,7 @@ class Table extends Component {
                         </li>
                     </ol>
                 </nav>
+                <CreateTodo />
                 {this.props.todos.length !== 0 ? (
                     <table
                         style={{ marginTop: "60px" }}
