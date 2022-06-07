@@ -1,0 +1,33 @@
+[debug] [2022-06-05T11:26:08.183Z] ----------------------------------------------------------------------
+[debug] [2022-06-05T11:26:08.187Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\FauzanOIOI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2022-06-05T11:26:08.188Z] CLI Version:   11.0.1
+[debug] [2022-06-05T11:26:08.189Z] Platform:      win32
+[debug] [2022-06-05T11:26:08.189Z] Node Version:  v18.3.0
+[debug] [2022-06-05T11:26:08.191Z] Time:          Sun Jun 05 2022 18:26:08 GMT+0700 (Western Indonesia Time)
+[debug] [2022-06-05T11:26:08.191Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-05T11:26:08.349Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-05T11:26:08.350Z] > authorizing via signed-in user (1941720171@student.polinema.ac.id)
+[debug] [2022-06-05T11:26:08.350Z] [iam] checking project fir-login-5fdcf for permissions ["firebase.projects.get"]
+[debug] [2022-06-05T11:26:08.354Z] > refreshing access token with scopes: []
+[debug] [2022-06-05T11:26:08.355Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-06-05T11:26:08.732Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sun, 05 Jun 2022 11:26:08 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-06-05T11:26:08.756Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-login-5fdcf:testIamPermissions [none]
+[debug] [2022-06-05T11:26:08.756Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-login-5fdcf:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-06-05T11:26:09.954Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-login-5fdcf:testIamPermissions 200
+[debug] [2022-06-05T11:26:09.955Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-login-5fdcf:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-06-05T11:26:09.957Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-login-5fdcf [none]
+[debug] [2022-06-05T11:26:10.454Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-login-5fdcf 200
+[debug] [2022-06-05T11:26:10.455Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-login-5fdcf {"projectId":"fir-login-5fdcf","projectNumber":"564371950853","displayName":"firebase-login","name":"projects/fir-login-5fdcf","resources":{"hostingSite":"fir-login-5fdcf","storageBucket":"fir-login-5fdcf.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+[info] === Serving from 'E:\Semester 6\PBF\Script\P 11\firebase-login'...
+[info] 
+[debug] [2022-06-05T11:26:10.459Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-login-5fdcf/sites 
+[debug] [2022-06-05T11:26:11.922Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-login-5fdcf/sites 200
+[debug] [2022-06-05T11:26:11.922Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-login-5fdcf/sites {"sites":[{"name":"projects/fir-login-5fdcf/sites/fir-login-5fdcf","defaultUrl":"https://fir-login-5fdcf.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2022-06-05T11:26:11.922Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-login-5fdcf/webApps/-/config [none]
+[debug] [2022-06-05T11:26:13.119Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-login-5fdcf/webApps/-/config 200
+[debug] [2022-06-05T11:26:13.120Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-login-5fdcf/webApps/-/config {"projectId":"fir-login-5fdcf","appId":"1:564371950853:web:1aee400832eb24748c7b6c","storageBucket":"fir-login-5fdcf.appspot.com","locationId":"us-central","apiKey":"AIzaSyATx5iRLbk3MMDWyRR6mJHVsYknX61jjCY","authDomain":"fir-login-5fdcf.firebaseapp.com","messagingSenderId":"564371950853","measurementId":"G-MHQWDSQ0Y0"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
