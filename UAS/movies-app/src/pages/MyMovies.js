@@ -15,7 +15,7 @@ function MyMovies() {
       <Header />
       <Flex>
         <Heading color={"#fff"} textAlign="center" w="100%" marginTop={6}>
-          My Movies
+          Movie Lists
         </Heading>
       </Flex>
       <Container className="image-grid">
